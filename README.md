@@ -12,12 +12,11 @@ For general questions regarding this contest, please contact Jeff Goeders <jgoed
 The get started, users have to run the following command on the Ultra96 board:
 
 ```shell
-cd /home/xilinx/jupyter_notebooks
-sudo git clone https://github.com/jgoeders/dac_2019_contest.git
+sudo pip3 install --upgrade git+https://github.com/jgoeders/dac_2019_contest.git
 ```
 Remember the user name and password are both `xilinx` for super user.
 
-After the above step is completed successfully, you will see a folder `dac_2019_contest` under your 
+After the above step is completed successfully, you will see a folder `pynquser` under your 
 jupyter notebook dashboard.  Open the `pynquser/dac_contest.ipynb` notebook for directions on where to begin.
 
 ## Folder Structure
